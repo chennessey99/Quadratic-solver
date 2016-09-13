@@ -1,0 +1,24 @@
+
+public class QuadraticFormula {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("What is the value of a");
+		Scanner keyboard = new Scanner(System.in);
+		double a=keyboard.nextDouble();
+		System.out.println("What is the value of b");
+		double b=keyboard.nextDouble();
+		System.out.println("What is the value of c");
+		double c=keyboard.nextDouble();
+		double quadratic=(((b*-1)+Math.sqrt(Math.pow(b, 2)-4*a*c))/(2*a));
+		double otherQuadratic=(((b*-1)-Math.sqrt(Math.pow(b, 2)-4*a*c))/(2*a));
+		System.out.println("here is the work");
+		System.out.println(("("+"x=-" + b + "+/-" + " square root " + Math.pow(b,2) + "-4*" + a*c + ")")+"/"+2*a);
+		System.out.println("here are the answer(s)");
+		System.out.println("x=" + quadratic);
+		System.out.println("x=" + otherQuadratic);
+		
+	}
+
+}
+//created by Chendogg
